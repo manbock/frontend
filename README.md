@@ -16,7 +16,7 @@
   # e.g - git clone https://github.com/{username}/frontend-assignment.git
 ```
 
-- 혹시 fatal: Authentication failed이 뜨며 클론이 되지 않는다면, 깃헙 Profile > Settings > Developer Settings > Personal access tokens에서 개인 토큰을 발급받고 클로닝을 재시도해보시길 바랍니다. password 입력창이 뜨면, 발급받은 토큰을 복사해서 붙여넣으면 됩니다.
+- 🚨 혹시 `fatal: Authentication failed`이 뜨며 클론이 되지 않는다면, 깃헙 `Profile > Settings > Developer Settings > Personal access tokens`에서 개인 토큰을 발급받고 클로닝을 재시도해보시길 바랍니다. password 입력창이 뜨면, 발급받은 토큰을 복사해서 붙여넣으면 됩니다.
 
 ### Installation
 
@@ -35,5 +35,28 @@
 ```
 
 ## 2. 💻 과제 수행
+- 과제 
 
 ## 3. 📮 과제 제출
+
+- 과제 작성이 끝나면, 개인 원격 저장소에 푸시 후 풀 리퀘스트를 통해 최종 제출해주시면 됩니다.
+- `Pull requests` 탭 > `New pull request` > `Create pull request` 를 통해 PR을 작성, 제출해주세요.
+
+### 주의사항
+
+- base repository는 `dalphakr/frontend-assignment`로, base 브랜치는 `main`으로 제출해주세요!
+- head repository는 `{username}/frontend-assignment`로, base 브랜치는 수행한 과제가 담겨있는 브랜치로 설정해주시면 됩니다.
+  ![image](https://private-user-images.githubusercontent.com/71599639/308807246-a0a2ef0b-cf85-4051-9981-4894e059ad21.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkxODUyNjgsIm5iZiI6MTcwOTE4NDk2OCwicGF0aCI6Ii83MTU5OTYzOS8zMDg4MDcyNDYtYTBhMmVmMGItY2Y4NS00MDUxLTk5ODEtNDg5NGUwNTlhZDIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI5VDA1MzYwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM3MGVjMmY5M2UwNTE0NTYyMzhlZWE2NjkzN2RlNzZiMjYwOGVhNjg4ZDNmNGUwOTYwYjllOTIxZjhhZDI1ZmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.jew_xmi_vFYWOLP3Qbma128-ECdPA9KCU2TV6a4cB30)
+- PR 제목은 `[feat] implement assignment (FE)`로 작성해주세요.
+- 최종 제출 여부를 확인하기 위해 우측 `labels`에서 submission 태그를 선택해 제출 완료가 되었음을 알려주세요.
+- 또한 리뷰어로는 `jin-su-choi`, `hitkoo`, `lerrybe`를 지정해주세요.
+  ![image](https://private-user-images.githubusercontent.com/71599639/308809454-1261d141-c9f3-44cb-8220-cfcb8336c851.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkxODYxNjQsIm5iZiI6MTcwOTE4NTg2NCwicGF0aCI6Ii83MTU5OTYzOS8zMDg4MDk0NTQtMTI2MWQxNDEtYzlmMy00NGNiLTgyMjAtY2ZjYjgzMzZjODUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI5VDA1NTEwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM2MDZkMzljNDg2MGQ0M2VjYWI5Mzk2MGRhMzQ2NmM1MzYyN2E4MDliODM4MThjMDk1ZmFmZTRkYTIzY2U3MjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.IIQdxvvr8_1KMXv4HkuletuOod3KhlftKfy7yzUltM8)
+- PR description에는 작성하고 싶은 내용을 자유롭게 기재해주시면 되는데, 기능 구현과 관련된 아래 체크리스트를 꼭 기재해주시고, 구현이 완료된 내용에는 완료 표시해주세요.
+  - [ ] 필요한
+  - [ ] 필수
+  - [ ] 구현사항들, 2번 완성되면 추가
+
+### 제출 확인
+
+- 아래 사진처럼 submission 태그와 함께 PR이 등록되었다면 제출 완료입니다.
+  ![image](https://private-user-images.githubusercontent.com/71599639/308810106-cbb46b6a-9226-416b-aad9-b3e78d8d192e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkxODYxNjQsIm5iZiI6MTcwOTE4NTg2NCwicGF0aCI6Ii83MTU5OTYzOS8zMDg4MTAxMDYtY2JiNDZiNmEtOTIyNi00MTZiLWFhZDktYjNlNzhkOGQxOTJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjI5VDA1NTEwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQwODU5ZGE5NDFkYWM3ZmFmNDY1ODY4MWYyNDk5YTIxOTA3YzdkYWFkMTIzZDg1MDI1Mjg0ZTkzNDA4MzdkMDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.iPyAPRG3kzpQYmEj86zvEZLfHsbYU9FFqLNBHcRwHqQ)
