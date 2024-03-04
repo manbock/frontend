@@ -39,7 +39,48 @@
 
 ## 2. 💻 과제 수행
 
-- 과제
+### 개요
+- 총 두 가지 과제를 작성해주시면 됩니다. 
+- 과제의 최종 목표는 멀티 모달 검색 테스트 페이지를 개발하는 것입니다.
+- 외부 패키지 사용을 적극 권장합니다.
+- 제작할 페이지에 대한 디자인은 아래 링크에 나와 있습니다.
+	- https://www.figma.com/file/mBlnlJOWqjaO8MHsVi3ckQ/Dalpha_frontend-assignment?type=design&node-id=0%3A1&mode=dev&t=C2K8S5tbIwXux673-1
+   - Figma 계정이 없을 경우 회원가입을 해주세요.
+- 페이지를 제작할 때 사용할 API는 아래 링크에 나와 있습니다.
+	- ~~
+	- 해당 API는 실제로 동작하는 AI는 아니며, 예시 데이터를 반환합니다.
+- flex box 사용을 권장합니다.
+
+### 과제 1
+- 텍스트 검색 테스트 페이지를 제작합니다.
+- 첫 화면에서 검색어를 입력 후 검색하기 버튼을 클릭 시 검색창이 상단으로 이동하며, API 응답이 올 때까지 로딩 화면이 노출 됩니다.
+- 검색에 성공할 경우 검색 결과를 Grid 형태로 노출합니다. 검색 결과 컨테이너는 display grid 속성을 사용해야 합니다.
+- 검색에 실패할 경우 에러 화면을 노출합니다.
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/285b6b54-73f0-4bca-bf43-3ca86ba3bf38)
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/70b4536a-28cc-4a18-944f-5aa33430776a)
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/939cb95d-fccc-4829-80e2-9759d9d6c205)
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/b249552d-96a8-4b3f-925e-0143bcc9d6ca)
+
+### 과제 2
+- 과제 1과 별도의 페이지에서 제작해야 합니다.
+- 과제 1에서 제작한 컴포넌트를 재활용해야 합니다.
+- 검색바에서 카메라 아이콘을 클릭 시 검색바가 확장되며 이미지 업로드가 가능한 형태로 변형됩니다.
+- 이미지 업로드 검색바는 아래 기능을 제공해야 합니다.
+	- 클릭해서 업로드
+	- 드래그 앤 드롭해서 업로드
+	- 링크를 입력해서 업로드
+- 이미지 업로드 검색바는 아래와 같은 데이터 검증 기능이 있어야 합니다.
+	- 이미지 파일이 아닌 파일을 업로드할 수 없어야 합니다.
+	- 이미지 파일의 링크가 아닌 경우 경고 아이콘이 노출되어야 하며, 검색이 불가해야 합니다.
+	- 이미지 파일 링크 예시
+		- ...
+- 검색 결과 화면에서 검색 결과의 이미지를 클릭 시 해당 이미지로 검색이 되는 기능을 구현해야 합니다.
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/bff4baf7-1c7e-4f06-b434-2fb0c51fadc0)
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/6f4b74a6-9e9c-432a-bf3c-6f334b153634)
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/97bcf73c-e1f2-493d-b00c-2dacdc3973d1)
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/2bf62e80-3367-40df-bf3a-e38f41c4d9c7)
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/7c910dd5-1582-4ece-bb64-d9a786f55b61)
+![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/47859417-d20b-42d1-a224-21c79448918d)
 
 ## 3. 📮 과제 제출
 
@@ -60,9 +101,18 @@
   ![create_pr_image](/public/images/create_pr.png)
 
 - PR description에는 작성하고 싶은 내용을 자유롭게 기재해주시면 되는데, 기능 구현과 관련된 아래 체크리스트를 꼭 기재해주시고, 구현이 완료된 내용에는 완료 표시해주세요.
-  - [ ] 필요한
-  - [ ] 필수
-  - [ ] 구현사항들, 2번 완성되면 추가
+  - 과제 1
+	  - [ ] 기본 UI 개발 (디자인에 대한 정확한 구현)
+	  - [ ] API 요청 및 응답에 대한 구현
+	  - [ ] 로딩 화면 및 자연스러운 컴포넌트 이동 및 변화 구현
+  - 과제 2
+	  - [ ] 이미지 업로드 컴포넌트에 대한 기본 기능 구현
+	  - [ ] 이미지 업로드 컴포넌트에서 정확한 데이터 검증 구현
+	  - [ ] 검색 결과 화면에서 검색 결과 이미지 클릭 시 해당 이미지로 검색되는 기능 구현
+	  - [ ] 과제 1에서 제작한 컴포넌트의 재활용
+	  - [ ] 기본 UI 개발 (디자인에 대한 정확한 구현)
+	  - [ ] API 요청 및 응답에 대한 구현
+	  - [ ] 로딩 화면 및 자연스러운 컴포넌트 이동 및 변화 구현
 
 ### 제출 확인
 
