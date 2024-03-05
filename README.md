@@ -47,7 +47,7 @@
 	- https://www.figma.com/file/mBlnlJOWqjaO8MHsVi3ckQ/Dalpha_frontend-assignment?type=design&node-id=0%3A1&mode=dev&t=C2K8S5tbIwXux673-1
    - Figma 계정이 없을 경우 회원가입을 해주세요.
 - 페이지를 제작할 때 사용할 API는 아래 링크에 나와 있습니다.
-	- ~~
+	- https://documenter.getpostman.com/view/26588633/2sA2xcbauh
 	- 해당 API는 실제로 동작하는 AI는 아니며, 예시 데이터를 반환합니다.
 - flex box 사용을 권장합니다.
 
@@ -73,7 +73,9 @@
 	- 이미지 파일이 아닌 파일을 업로드할 수 없어야 합니다.
 	- 이미지 파일의 링크가 아닌 경우 경고 아이콘이 노출되어야 하며, 검색이 불가해야 합니다.
 	- 이미지 파일 링크 예시
-		- ...
+		- https://dalpha-internal-imagesearch.s3.ap-northeast-2.amazonaws.com/channel_id=46/y=2024/m=03/d=04/39518429771-1709587733786.jpg
+  		- https://cf.product-image.s.zigzag.kr/original/d/2023/6/1/29610_202306011830180794_92780.jpeg?width=300&height=300&quality=80&format=webp
+    		- https://gdimg.gmarket.co.kr/1450887760/still/400?ver=1619165460
 - 검색 결과 화면에서 검색 결과의 이미지를 클릭 시 해당 이미지로 검색이 되는 기능을 구현해야 합니다.
 ![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/bff4baf7-1c7e-4f06-b434-2fb0c51fadc0)
 ![image](https://github.com/dalphakr/frontend-assignment/assets/113716298/6f4b74a6-9e9c-432a-bf3c-6f334b153634)
