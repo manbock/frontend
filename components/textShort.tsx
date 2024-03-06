@@ -21,14 +21,22 @@ const UploadTextShort = ({
   title,
   placeholder = "여기에 작성해주세요.",
 }: PropsType) => {
+  const [inputText, setInputText] = useState(""); // input의 텍스트 값을 상태로 관리
+
   const onChangeValue = useCallback(
     (value: string) => {
       const temp: DataObject = {};
-      temp[dataKey] = value;
-      metadataHandler(temp);
+      temp[dataKey] = value; // 새로운 값 설정
+      console.log("텍스트 값 변경:", value); // 변경된 텍스트 값 콘솔에 출력
+      metadataHandler(temp); // metadataHandler 함수 호출
+      setInputText(value); // input의 텍스트 값을 업데이트
     },
     [dataKey, metadataHandler]
   );
+
+  const handleSearch = () => {
+    console.log("현재 입력된 텍스트:", inputText); // 클릭 시 현재 입력된 텍스트 출력
+  }
 
   return (
     <Container>
@@ -52,9 +60,15 @@ const UploadTextShort = ({
           }/${maxLength}`}</div>
         )}
       </InputArea>
+      <SearchButton onClick={handleSearch}>Search</SearchButton>
     </Container>
   );
 };
+
+const SearchButton = styled.button`
+  width: 200px;
+  height: 100px;
+`
 
 const Container = styled.div`
   width: 100%;

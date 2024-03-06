@@ -1,0 +1,88 @@
+{
+   "result": [
+     {
+       "productId": "244055",
+       "title": "원피스 8387",
+       "brand": "편안한 옷차림.",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/244055_plp.jpeg"
+     },
+     {
+       "productId": "265603",
+       "title": "원피스 5105",
+       "brand": "BEJ",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/265603_plp.jpeg"
+     },
+     {
+       "productId": "247796",
+       "title": "원피스 H 7748 ",
+       "brand": "원피스맛집",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/247796_plp.jpeg"
+     },
+     {
+       "productId": "260036",
+       "title": "원피스 018 ",
+       "brand": "원피스매장",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/260036_plp.jpeg"
+     },
+     {
+       "productId": "249589",
+       "title": "원피스 9987",
+       "brand": "네온 상의",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/249589_plp.jpeg"
+     },
+     {
+       "productId": "244739",
+       "title": "원피스 80803#",
+       "brand": "menlo",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/244739_plp.jpeg"
+     },
+     {
+       "productId": "247800",
+       "title": "원피스 H 05 ",
+       "brand": "원피스맛집",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/247800_plp.jpeg"
+     },
+     {
+       "productId": "263228",
+       "title": "원피스 9170",
+       "brand": "오렌지 초여름",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/263228_plp.jpeg"
+     },
+     {
+       "productId": "263242",
+       "title": "셔츠 6827#",
+       "brand": "CiCi",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/263242_plp.jpeg"
+     },
+     {
+       "productId": "255066",
+       "title": "원피스 6266",
+       "brand": "옷과 옷을 수놓다.",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/255066_plp.jpeg"
+     },
+     {
+       "productId": "240214",
+       "title": "원피스 2315",
+       "brand": "원피스맛집",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/240214_plp.jpeg"
+     },
+     {
+       "productId": "241966",
+       "title": "원피스 5704",
+       "brand": "가짜 주머니",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/241966_plp.jpeg"
+     },
+     {
+       "productId": "260575",
+       "title": "원피스 6856",
+       "brand": "금영",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/260575_plp.jpeg"
+     },
+     {
+       "productId": "260661",
+       "title": "원피스 9377",
+       "brand": "YZ 실사",
+       "plp": "https://dalpha-internal-demo.s3.ap-northeast-2.amazonaws.com/AIStore_uh2sa_images/260661_plp.jpeg"
+     }
+   ]
+ }
