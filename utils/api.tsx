@@ -1,44 +1,36 @@
-import axios from "axios";
-import { useState } from "react";
-import SearchButton from "@/components/searchButton";
-import ImageGrid from "@/components/imageGrid";
+import axios from 'axios';
 
 export const fetchFromAPI = async (keyword: string) => {
-  const data = await axios.post('https://cafe24-proxy.bravo.dalpha.so/api/test/text-search', { keyword });
-  console.log(data)
-  return data;
-}
-
-const UploadText = () => {
-  const [keyword, setKeyword] = useState(""); // 검색어를 상태로 관리
-  const [imageData, setImageData] = useState<string[]>([]);
-
-  const handleSearch = async () => {
-    try {
-      const response = await fetchFromAPI(keyword);
-      setImageData(response.data.result.map( (item:any) => item.plp));
-      const titledata = response.data.result.map( (item:any) => item.title);
-      console.log(JSON.stringify(response.data));
-      
-    } catch (error) {
-      console.log(error); 
-    }
+  try {
+    const data = await axios.post('https://cafe24-proxy.bravo.dalpha.so/api/test/text-search', { keyword });
+    console.log(data);
+    return data;
+  } catch (error) {
+    throw error;
   }
+};
 
-  return (
-    <div>
-      <input
-        type="text"
-        value={keyword}
-        onChange={(e) => setKeyword(e.target.value)}
-        placeholder="검색어를 입력하세요"
-      />
-      <SearchButton onClick={handleSearch} /> {/* SearchButton 컴포넌트 렌더링 */}
+export const uploadImage = async (imageFile: File) => {
+  try {
+    const formData = new FormData();
+    formData.append('image', imageFile);
 
-      <ImageGrid data={imageData}></ImageGrid>
-    </div>
-  );
-}
+    const response = await axios.post('https://cafe24-proxy.bravo.dalpha.so/api/test/upload-image', formData);
+    console.log(JSON.stringify(response.data.url));
+    return response.data.url;
+  } catch (error) {
+    console.error('Error uploading image:', error);
+    throw error;
+  }
+};
 
-export default UploadText;
+export const fetchImage = async (url: string) => {
+  try {
+    const data = await axios.post('https://cafe24-proxy.bravo.dalpha.so/api/test/image-search', {url});
+    console.log(data);
+    return data;
+  } catch (error) {
+    throw error;
+  }
+};
 

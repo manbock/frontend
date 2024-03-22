@@ -1,0 +1,49 @@
+.img_container{
+
+   .imgbox{
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 2px, rgb(0 0 0 / 16%) 0px 7px 17px 1px, #00000033 0px -3px 0px inset;
+      transition: 0.3s;
+      &:hover{scale: 1.2; z-index: 3;}
+      
+      .content{
+         
+         img.img{border-radius: 15px 15px 0 0;
+         }
+      }
+      .info{
+         background-color: #fff;
+         border-radius: 0 0 15px 15px;
+         padding: 20px 10px 12px 10px;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 36px -28px inset;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         p.brand{
+            font-size: 10px;
+         }
+         h2.name{
+            font-size: 20px;
+            color: var(--black200);
+         }
+      }
+   }
+}
+
+
+.fade-in {
+   opacity: 0;
+   transform: translateY(-20px);
+   animation: fadeIn 0.5   s ease forwards;
+ }
+ 
+ @keyframes fadeIn {
+   0% {
+     opacity: 0;
+     transform: translateY(-20px);
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }

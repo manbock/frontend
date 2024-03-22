@@ -1,16 +1,14 @@
 import  Main  from '@/components/section/Main'
 import UploadText from "@/components/UploadText";
 
-
-
-export default function Home() {
-
+const imgSearch = () => {
   return (
     <>
       <Main>
-        <UploadText task2={false}/>
+        <UploadText task2={true}/>
       </Main>
     </>
-      
-  );
-} 
+  )
+}
+
+export default imgSearch
